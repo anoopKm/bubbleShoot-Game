@@ -1,0 +1,40 @@
+* {
+	font-family: "Lucida Grande";
+}
+
+body{
+	padding-top: 15px;
+}
+
+#gameContainer {
+	padding: 5px;
+	padding-bottom: 10px;
+}
+
+.column {
+	width: 56px;
+	padding: 3px;
+	float: left;
+}
+
+.column:hover {
+	cursor: pointer;
+	opacity: .8;
+}
+
+.circle {
+	border-radius: 50%;
+	margin: 3px;
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+	border: 1px solid;
+}
+
+.modal-dialog {
+	width: 300px !important;
+}
+
+.message {
+	margin-top: 10%;
+}
